@@ -1,8 +1,15 @@
 from pprint import pprint
 
-import torch
-
 if __name__ == '__main__':
+    try:
+        import torch
+    except ImportError:
+        print("""
+# Please install PyTorch first
+pip install torch
+        """)
+        quit(-1)
+
     torch_version = torch.__version__
     cuda_version = torch.version.cuda
     cudnn_version = torch.backends.cudnn.version()
