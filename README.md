@@ -12,3 +12,7 @@ pip install --no-index torch-cluster -f https://pytorch-geometric.com/whl/torch-
 pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.5.1+$cpu.html
 pip install torch-geometric
 ```
+
+Requires [PyTorch](https://github.com/pytorch/pytorch) to be installed first.
+
+*Note*: If the used PyTorch version was compiled for CUDA, but CUDA is not available for `torch`, it will install the cpu version of PyTorch Geometric.
