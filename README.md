@@ -6,10 +6,10 @@ Generate pip install commands for installation of [PyTorch Geometric](https://gi
 $ python generate_pip.py
 {'cuda': '10.2', 'cudnn': 7605, 'gpu': False, 'torch': '1.5.1'}
 
-pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-1.5.1+$cpu.html
-pip install --no-index torch-sparse -f https://pytorch-geometric.com/whl/torch-1.5.1+$cpu.html
-pip install --no-index torch-cluster -f https://pytorch-geometric.com/whl/torch-1.5.1+$cpu.html
-pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.5.1+$cpu.html
+pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-1.5.1+cpu.html
+pip install --no-index torch-sparse -f https://pytorch-geometric.com/whl/torch-1.5.1+cpu.html
+pip install --no-index torch-cluster -f https://pytorch-geometric.com/whl/torch-1.5.1+cpu.html
+pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.5.1+cpu.html
 pip install torch-geometric
 ```
 
