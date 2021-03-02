@@ -3,7 +3,7 @@ if __name__ == '__main__':
         import torch
     except ImportError:
         print("""
-# Please install PyTorch first
+# Please install PyTorch first, cf. https://pytorch.org/get-started/locally/
 pip install torch
         """)
         quit(-1)
