@@ -20,8 +20,8 @@ pip install torch
 # CudNN: {cudnn_version}
 """)
 
-    TORCH = torch_version
-    CUDA = cuda_version.replace(".", "") if gpu else "cpu"
+    TORCH = torch_version.split("+")[0]
+    CUDA = "cu" + cuda_version.replace(".", "") if gpu else "cpu"
 
     print(f"""\
     
