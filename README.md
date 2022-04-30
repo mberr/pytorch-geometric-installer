@@ -1,5 +1,7 @@
 # PyTorch Geometric Install Helper
 
+*Update: PyTorch Geometric now has a similar tool [in their documention](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html#quick-start).*
+
 Generate pip install commands for installation of [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) as described [here](https://github.com/rusty1s/pytorch_geometric#installation), e.g.
 
 ```console
